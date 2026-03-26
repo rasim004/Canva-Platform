@@ -38,13 +38,15 @@ body::before {
 
 /* ─── HEADER (WHITE ACCENT) ─────────────────────────── */
 .top-header {
-  background: #ffffff;
+  /* background: #ffffffc6; */
+  border-radius: 15px;
   padding: 16px 40px;
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 10;
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  margin-bottom: 15px;
 }
 .header-logo {
   display: flex;
@@ -58,6 +60,7 @@ body::before {
   display: flex; align-items: center; justify-content: center;
   font-weight: 700; font-size: 18px; color: #fff;
   font-family: 'Space Mono', monospace;
+  
 }
 .header-logo .logo-text {
   font-family: 'Outfit', sans-serif;
@@ -65,6 +68,7 @@ body::before {
   font-weight: 700;
   letter-spacing: 0.5px;
   color: #0f172a; /* Dark text on white bg */
+  color: #fff;
 }
 
 /* ─── MAIN LAYOUT ───────────────────────────────────── */
